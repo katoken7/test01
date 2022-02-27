@@ -1,0 +1,188 @@
+/* Common nav styles */
+.navigation-wrapper {
+    background-color: #000000;
+    color:#cbcbcb;
+}
+
+/* top style */
+
+.navigation-wrapper > .top {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.navigation-wrapper > .top > .banner-image img {
+    width: 90%;
+    height: 45%;
+    margin-top: 5px;
+}
+
+.navigation-wrapper > .top > .explore-type > .explore {
+    font-size: 1.1em;
+    color: #cea135;
+    font-family: sans-serif;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.navigation-wrapper > .top > .explore-type > .types {
+    text-align: left;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .type4 {
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 25px; 
+    display: inline-block;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .spark {
+    font-family: sans-serif;
+    color: grey;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .chevron {
+    display: inline-block;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .chevron i {
+    font-size: 1em;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .create {
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1b1b1b;
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 12px;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .create > .chevron2 {
+    display: inline-block;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .create > .chevron2 i {
+    font-size: 1em;
+    color: #16810c;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .search {
+    display: inline-block;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .search img {
+    height: 25px;
+    width: 25px;
+}
+
+.navigation-wrapper > .top > .explore-type > .types > .login {
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1b1b1b;
+    display: inline-block;
+    padding: 12px;
+}
+.navigation-wrapper > .top > .explore-type > .types > .signup {
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #1b1b1b;
+    display: inline-block;
+    padding: 12px;
+}
+
+/* Center column style */
+.navigation-wrapper > .main {
+    display: flex;
+    background: radial-gradient(
+        circle at left top, rgb(63, 59, 59), rgb(15, 15, 15) 30%);
+}
+
+.navigation-wrapper > .main > .left {
+    margin-top: -4px;
+    margin-top: 50px;
+    margin-left: 40px; 
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color:#c7bebe;
+    display: inline-block;
+}
+
+.navigation-wrapper > .main > .left > .code {
+    font-family: sans-serif;
+    font-size: 30px;
+    color:#c7bebe;
+}
+
+.navigation-wrapper > .main > .left > .it {
+    font-family: sans-serif;
+    font-size: 25px;
+    color:#c7bebe;
+}
+
+.navigation-wrapper > .main > .left > .boxtype > .box1 {
+    background-color: #35b42a;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    color: #000000;
+}    
+
+.navigation-wrapper > .main > .left > .boxtype > .box2 {
+    background-color: #000000;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding: 15px;
+} 
+.navigation-wrapper > .main > .right {
+    color: rgb(0, 153, 255); 
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.navigation-wrapper > .main > .right > .img img {
+    width: 420px;
+    height: auto;
+    position: fixed;
+}
+
+.navigation-wrapper > .footer {
+    color:#cbcbcb; 
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: table;
+    margin: -20px auto 10px -2px;
+    padding: 0%;
+}
+
+.navigation-wrapper > .footer > .box {
+    background-color: #131212;
+    display: table-cell;
+    border-color: grey;
+    border: 3px solid;
+    width: 242px;
+}
+
+.navigation-wrapper > .last {
+    background-color: black;
+    height: 50px;
+}
